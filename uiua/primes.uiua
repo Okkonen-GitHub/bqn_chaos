@@ -1,2 +1,4 @@
 primes ← (▽=1/+⊞(=0◿)..+2⇡)
 primes 100
+# or with a "dynamic predicate"
+primes ← (▽=1/+⊞^∶,(=0◿) .+2⇡)
